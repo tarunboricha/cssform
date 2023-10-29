@@ -1,0 +1,93 @@
+body{
+    display: flex;
+    justify-content: center;
+    padding-top: 3%;
+}
+h2{
+    margin: 0;
+    font-weight: 700;
+}
+input{
+    background-color: #f2f2f2;
+    border: none;
+    padding: 3% 5%;
+    width: 100%;
+}
+p{
+    display: inline;
+    color: #2d8ef6;
+    cursor: pointer;
+}
+a{
+    text-decoration: none;
+    text-decoration: underline;
+    color: white;
+}
+
+.center{
+    width: 35%;
+    padding: 3% 4.5%;
+    border: 0.3rem solid;
+    background-color: #3598dc;
+    padding-bottom: 1%;
+}
+.containerr{
+    background-color: white;
+    border-radius: 1%;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+    padding: 8%;
+}
+.headinfo{
+    margin: 3% 0 4% 0;
+}
+.hrline{
+    border-top: 1px solid rgb(202, 201, 201);;
+    margin-bottom: 4%;
+    position: relative;
+    left: -9.7%;
+    width: 119.4%;
+}
+.name, .email, .password, .confirmpass{
+    margin-bottom: 5%;
+}
+.name{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.firstname, .lastname{
+    width: 47%;
+}
+input.firstname, input.lastname{
+    width: 100%;
+    padding: 6% 10%;
+}
+.termsandcond{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 5%;
+}
+input.checkboxx{
+    width: 80%;
+}
+.btn{
+    background-color: #3598dc;
+    color: white;
+    width: 100%;
+}
+.submitbtn{
+    margin-bottom: 6%;
+    width: 40%;
+}
+.alreadyacc{
+    display: flex;
+    justify-content: center;
+    padding-top: 5%;
+}
+
+@media only screen and (max-width: 600px) {
+    .center {
+        width: 95%;
+        padding: 5%;
+    }
+}
